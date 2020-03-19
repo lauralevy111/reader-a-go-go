@@ -21,10 +21,9 @@ func main() {
 
     if strings.Compare("hi",text) == 0 {
       fmt.Println("hello, yourself")
+      break;
     }
 
   }
 
 }
-
-//func REplace()
