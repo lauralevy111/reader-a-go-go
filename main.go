@@ -21,11 +21,14 @@ func main() {
 
     if strings.Compare("hi",text) == 0 {
       fmt.Println("hello, yourself")
-      break;
+  //    break;
     }
     if strings.Compare("bye",text) ==0 {
       fmt.Println("goodbye")
       break;
+    }
+    if strings.Compare("help",text)<=1 {
+      fmt.Println("all you need is within you now!")
     }
 
   }
