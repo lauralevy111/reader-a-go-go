@@ -23,7 +23,7 @@ func main() {
       fmt.Println("hello, yourself")
       break;
     }
-    if strings.Compare("xx",text) ==0 {
+    if strings.Compare("bye",text) ==0 {
       fmt.Println("goodbye")
     }
 
