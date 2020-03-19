@@ -23,6 +23,9 @@ func main() {
       fmt.Println("hello, yourself")
       break;
     }
+    if strings.Compare("xx",text) ==0 {
+      fmt.Println("goodbye")
+    }
 
   }
 
