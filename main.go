@@ -19,7 +19,7 @@ func main() {
     //convert CRLF to LF
     text = strings.Replace(text, "\n","",-1)
 
-    if strings.Compare("hi",text) == 0 {
+    if strings.Contains("hi",text) == true {
       fmt.Println("hello, yourself")
   //    break;
     }
