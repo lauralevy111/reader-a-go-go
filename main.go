@@ -37,6 +37,11 @@ func main() {
       //fmt.Println(strings.Compare("help",text))
     }
 
+    if strings.Compare("hello",text)>=0 {
+      fmt.Println("All you need is within you now!")
+      //fmt.Println(strings.Compare("help",text))
+    }
+
   }
 
 }
