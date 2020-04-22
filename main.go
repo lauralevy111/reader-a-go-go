@@ -1,4 +1,4 @@
-package main
+vpackage main
 
 import (
   "fmt"
@@ -28,7 +28,7 @@ func main() {
       break;
     }
     if strings.Compare("help",text)>=0 {
-      fmt.Println("All you need is within you now!")
+      fmt.Println("Hello, yourself")
       //fmt.Println(strings.Compare("help",text))
     }
 
