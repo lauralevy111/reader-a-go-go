@@ -1,4 +1,4 @@
-vpackage main
+package main
 
 import (
   "fmt"
@@ -39,7 +39,6 @@ func main() {
 
     if strings.Compare("hello",text)>=0 {
       fmt.Println("Hello, yourself")
-      //fmt.Println(strings.Compare("help",text))
     }
 
   }
