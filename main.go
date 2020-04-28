@@ -27,7 +27,7 @@ func main() {
       fmt.Println("goodbye")
       break;
     }
-    if strings.Compare("help",text)>=0 {
+    if strings.Contains("help",text)>=0 {
       fmt.Println("Hello, yourself")
       //fmt.Println(strings.Compare("help",text))
     }
