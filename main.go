@@ -28,13 +28,13 @@ func main() {
       break;
     }
     if strings.Contains("help",text)==true {
-      fmt.Println("Hello, yourself")
-      fmt.Println(strings.Compare("help",text))
+      fmt.Println("all you need is within you, now!")
+      //fmt.Println(strings.Compare("help",text))
     }
 
     if strings.Compare("hey",text)>=0 {
       fmt.Println("Hello, yourself")
-      fmt.Println(strings.Compare("help",text))
+      //fmt.Println(strings.Compare("help",text))
     }
 
     if strings.Compare("hello",text)>=0 {
