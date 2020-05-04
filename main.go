@@ -29,7 +29,7 @@ func main() {
     }
     if strings.Contains("help",text)==true {
       fmt.Println("all you need is within you, now!")
-      //fmt.Println(strings.Compare("help",text))
+      fmt.Println(strings.Compare("help",text))
     }
 
     if strings.Compare("hey",text)>=0 {
