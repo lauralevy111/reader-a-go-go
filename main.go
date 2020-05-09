@@ -28,7 +28,7 @@ func main() {
       break;
     }
     if strings.Compare("help",text)==true {
-      fmt.Println("all you need is within you, now!")
+      fmt.Println("all you need is within you now!")
       fmt.Println(strings.Contains("help",text))
     }
 
