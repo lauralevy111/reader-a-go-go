@@ -37,10 +37,6 @@ func main() {
       fmt.Println(strings.Compare("help",text))
     }
 
-    if strings.Compare("hello",text)>=0 {
-      fmt.Println("Hello, yourself")
-    }
-
   }
 
 }
