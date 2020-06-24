@@ -34,7 +34,7 @@ func main() {
 
     if strings.Compare("hey",text)>=0 {
       fmt.Println("Hello, yourself")
-      fmt.Println(strings.Contains("help",text))
+      fmt.Println(strings.Compare("help",text))
     }
 
   }
