@@ -5,6 +5,7 @@ import (
   "bufio"
   "os"
   "strings"
+  "rand"
 )
 
 func main() {
@@ -20,7 +21,7 @@ func main() {
     text = strings.Replace(text, "\n","",-1)
 
     if strings.Contains("hi",text) == true {
-      fmt.Println("Hello, yourself")
+      fmt.Println("Hello, yourselff")
   //    break;
     }
     if strings.Compare("bye",text) ==0 {
