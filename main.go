@@ -14,6 +14,10 @@ func main() {
   fmt.Println("hey girl!")
   fmt.Println("------------------------")
 
+  handle(reader)
+}
+func handle(buio.reader){}
+
   for {
     fmt.Print("->")
     text, _ := reader.ReadString('\n')
