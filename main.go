@@ -22,7 +22,7 @@ func handle(buio.reader){}
     fmt.Print("->")
     text, _ := reader.ReadString('\n')
     //convert CRLF to LF
-    text = strings.Replace(text, "\n","",-1)
+    //text = strings.Replace(text, "\n","",-1)
 
     if strings.Contains("hi",text) == true {
       fmt.Println("Hello, yourselff")
