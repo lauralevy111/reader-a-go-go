@@ -43,7 +43,7 @@ func handle(buio.reader){}
     }
 
     if strings.Compare("whats up?",text)==true {
-      fmt.Println("you wanna know whats UP??? My dog just coughed up somebody's finger!!")
+      fmt.Println("you wanna know whats UP??? My dog just coughed up somebody's finger!! Thats a problem")
     }
 
   }
