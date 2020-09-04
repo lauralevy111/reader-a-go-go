@@ -21,12 +21,9 @@ func handle(buio.reader){}
   for {
     fmt.Print("->")
     text, _ := reader.ReadString('\n')
-    //convert CRLF to LF
-    //text = strings.Replace(text, "\n","",-1)
 
     if strings.Contains("hi",text) == true {
       fmt.Println("Hello, yourselff")
-  //    break;
     }
     if strings.Compare("bye",text) ==0 {
       fmt.Println("goodbye")
@@ -43,7 +40,7 @@ func handle(buio.reader){}
     }
 
     if strings.Compare("whats up?",text)==true {
-      fmt.Println("you wanna know whats UP??? My dog just coughed up somebody's finger!! Thats a problem")
+      fmt.Println("you wanna know my dog??!!")
     }
 
   }
